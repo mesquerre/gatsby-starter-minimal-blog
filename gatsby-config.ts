@@ -8,7 +8,7 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitle: `Minimal Blog`,
+    siteTitle: `4studio Design`,
     siteTitleAlt: `Minimal Blog - Gatsby Theme`,
     siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
     siteUrl: `https://minimal-blog.lekoarts.de`,
@@ -30,6 +30,10 @@ const config: GatsbyConfig = {
           {
             title: `About`,
             slug: `/about`,
+          },
+          {
+            title: `Proyectos`,
+            slug: `/proyectos`,
           },
         ],
         externalLinks: [
